@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <title> M03Z </title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">M03Z</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="menu" id="navMenu">
+      <li><a href="#home">الصفحة الرئيسية</a></li>
+      <li><a href="#about">من أنا</a></li>
+      <li><a href="#projects">أعمالي</a></li>
+      <li><a href="#services">الخدمات</a></li>
+      <li><a href="#skills">المهارات</a></li>
+      <li><a href="#gallery">الشهادات</a></li>
+      <li><a href="#contact">اتصل بي</a></li>
+      <li><a href="#download-cv">تحميل السيرة الذاتية</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1>مرحبًا بك في موقع <span class="highligh">المعز</span></h1>
+    <p>مصمم ومطور ويب – مبدع في كل تفاصيل العمل الرقمي</p>
+    <a href="#about" class="cta-button">اكتشف المزيد</a>
+  </section>
+
+  <section id="about">
+    <h2>من أنا</h2>
+    <div id="new">
+    <div class="project-bo"> <img src="image/Picsart_25-04-20_11-36-53-967.png" alt=""></div>
+    <div class="bio-text">
+      أنا <span class="highlight">المعز عثمان حسن أحمد</span>، مصمم ومطور ويب، ومبرمج محترف.
+      أعمل أيضًا في مجال <span class="highlight">تصميم الجرافيك</span>، بالإضافة إلى كوني <span class="highlight">إعلامي وممثل</span>.
+      أمتلك خبرة في <span class="highlight">إنتاج الأفلام القصيرة وكتابة السيناريو</span>، كما أبدع في <span class="highlight">المونتاج وصناعة المحتوى البصري</span>.
+      طموحي أن أدمج بين الفن والتقنية لأصنع تجربة إبداعية متكاملة.
+    </div>
+  </div>
+  </section>
+
+  <section id="projects">
+    <h2>أعمالي</h2>
+    <div class="accordion">
+      <p class="highlight" style =" text-align: center; font-size:20px;"> انقر لترى الابداع يا عزيزي</p>
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)"> التصوير الفوتوغرافي</div>
+        <div class="accordion-content">
+          <div class="grid">
+            <div class="project-box"><img src="image/DSC00592.jpg" alt=""></div>
+            <div class="project-box"><img src="image/DSC00605.jpg" alt=""></div>
+            <div class="project-box"><img src="image/Photo_1736972377585.jpg" alt=""></div>
+            <div class="project-box"><img src="image/Photo_1740592677127.jpg" alt=""></div>
+            <div class="project-box"><img src="image/Photo_1740592468602.jpg" alt=""></div>
+            <div class="project-box"><img src="image/Photo_1740542761298.jpg" alt=""></div>
+            <div class="project-box"><img src="image/Photo_1740594178508.jpg" alt=""></div>
+            <div class="project-box"><img src="image/Photo_1737006702888.jpg" alt=""></div>
+            <div class="project-box"><img src="image/Photo_1740800551112.jpg" alt=""></div>
+            <div class="project-box"><img src="image/Photo_1740592467062.jpg" alt=""></div>
+            <div class="project-box"><img src="image/Photo_1736972937451.jpg" alt=""></div>
+            <div class="project-box"><img src="image/Photo_1736972842287.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">تصميم الجرافيك  </div>
+        <div class="accordion-content">
+          <div class="grid">
+            <div class="project-box"> <img src="image/Picsart_25-02-18_20-03-16-641.png" alt=""></div>
+            <div class="project-box"> <img src="image/Picsart_24-10-27_20-26-18-420.jpg" alt=""></div>
+            <div class="project-box"> <img src="image/Picsart_24-10-28_22-49-56-083.jpg" alt=""></div>
+            <div class="project-box"> <img src="image/Picsart_25-03-12_15-27-05-228.jpg" alt=""></div>
+            <div class="project-box"> <img src="image/Picsart_24-11-13_12-57-11-143.jpg" alt=""></div>
+            <div class="project-box"> <img src="image/Picsart_24-10-22_14-45-12-189.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">مونتاج الفيديو</div>
+        <div class="accordion-content">
+          <div class="grid">
+            <div class="project-box"> <video src="image/XiaoYing_Video_1733676732832_HD.mp4"></video></div>
+            <div class="project-box"> <video src="image/XiaoYing_Video_1737391804566_HD.mp4"></video></div>
+            <div class="project-box"> <video src="image/XiaoYing_Video_1741731429370_HD.mp4"></video></div>
+            <div class="project-box"> <video src="image/فيديو شرائح عرض كريمي وردي بني أزهار زواج احفظوا التاريخ_20241225_125030_٠٠٠١.mp4"></video></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">البرمجة</div>
+        <div class="accordion-content">
+          <div class="grid">
+            <div class="project-box">مشروع 1</div>
+            <div class="project-box">مشروع 2</div>
+            <div class="project-box">مشروع 3</div>
+            <div class="project-box">مشروع 4</div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">الإعلام</div>
+        <div class="accordion-content">
+          <div class="grid">
+            <div class="project-box">  <video src="image/XiaoYing_Video_1741672196135_HD.mp4"></video></div>
+            <div class="project-box">  <video src="image/XiaoYing_Video_1742653842675_HD.mp4"></video></div>
+            <div class="project-box">  <video src="image/VivaCut_video_1715119864508_1080HD.mp4"></video></div>
+           
+          </div>
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">التمثيل</div>
+        <div class="accordion-content">
+          <div class="grid">
+            <div class="project-box"> <video src="image/XiaoYing_Video_1731871717603_HD.mp4"></video></div>
+            <div class="project-box"> <video src="image/VivaCut_video_1715119864508_1080HD.mp4"></video></div>
+            <div class="project-box"> <video src="image/VivaCut_video_1710075450824_1080HD.mp4"></video></div>
+            
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>ماهي خدماتنا عزيزي؟</h2>
+    <p>بقدم مجموعة من الخدمات الإبداعية والاحترافيه » فقط انقر على الخدمة لطلبها.</p>
+    
+    <div class="service-list">
+      <a class="service-box" href="https://wa.me/249925833517" target="_blank">التصوير الفوتوغرافي</a>
+      <a class="service-box" href="https://wa.me/249925833517" target="_blank">تصميم وتطوير المواقع</a>
+      <a class="service-box" href="https://wa.me/249925833517" target="_blank">تصميم الجرافيك</a>
+      <a class="service-box" href="https://wa.me/249925833517" target="_blank">التمثيل وكتابة السيناريو</a>
+      <a class="service-box" href="https://wa.me/249925833517" target="_blank">مونتاج الفيديو</a>
+    </div>
+  
+    <p class="note">فقط اطلب ونحن نلبي طلبك وننفذه بأسرع ما يمكن!</p>
+  </section>
+
+   <!-- قسم المهارات الجديد -->
+<section id="skills" style="padding: 2rem; background-color: #121212; color: white; direction: rtl;">
+  <h2 style="color: #0f0; text-align: center;">مهاراتي</h2>
+
+  <!-- الأنماط -->
+  <style>
+    .skill-container {
+      margin: 1rem 0;
+    }
+
+    #skills{
+      direction: ltr;
+      text-align: right;
+    }
+
+    .skill-label {
+      margin-bottom: 5px;
+      display: block;
+      font-weight: bold;
+      color: #ccc;
+    }
+
+    .skill-bar {
+      background-color: #333;
+      border-radius: 30px;
+      overflow: hidden;
+      height: 30px;
+    }
+
+    .skill-bar-fill {
+      height: 100%;
+      text-align: left;
+      padding-right: 10px;
+      line-height: 30px;
+      color: black;
+      background-color: #0f0;
+      width: 0;
+      border-radius: 30px;
+      transition: width 2s ease-in-out;
+    }
+  </style>
+
+  <!-- التصوير الفوتوغرافي -->
+  <div class="skill-container">
+    <span class="skill-label">التصوير الفوتوغرافي</span>
+    <div class="skill-bar">
+      <div class="skill-bar-fill" data-percent="85%">85%</div>
+    </div>
+  </div>
+
+  <!-- تصميم الجرافيك -->
+  <div class="skill-container">
+    <span class="skill-label">تصميم الجرافيك</span>
+    <div class="skill-bar">
+      <div class="skill-bar-fill" data-percent="90%">90%</div>
+    </div>
+  </div>
+
+  <!-- مونتاج الفيديو -->
+  <div class="skill-container">
+    <span class="skill-label">مونتاج الفيديو</span>
+    <div class="skill-bar">
+      <div class="skill-bar-fill" data-percent="80%">80%</div>
+    </div>
+  </div>
+
+  <!-- البرمجة -->
+  <div class="skill-container">
+    <span class="skill-label">البرمجة</span>
+    <div class="skill-bar">
+      <div class="skill-bar-fill" data-percent="75%">75%</div>
+    </div>
+  </div>
+
+  <!-- الإعلام -->
+  <div class="skill-container">
+    <span class="skill-label">الإعلام</span>
+    <div class="skill-bar">
+      <div class="skill-bar-fill" data-percent="70%">70%</div>
+    </div>
+  </div>
+
+  <!-- سكربت لتحريك النسب -->
+  <script>
+    window.addEventListener('load', () => {
+      const fills = document.querySelectorAll('.skill-bar-fill');
+      fills.forEach(fill => {
+        const percent = fill.getAttribute('data-percent');
+        fill.style.width = percent;
+      });
+    });
+  </script>
+
+  <section id="gallery">
+    <h2> الشهادات</h2>
+  
+    <div class="gallery-grid">
+      <a href="#img1"><img src="cer/Picsart_25-01-20_13-27-57-733.jpg" alt="جرافيك 1"></a>
+      <a href="#img2"><img src="cer/Picsart_24-09-01_23-18-20-540.jpg" alt="جرافيك 2"></a>
+      <a href="#img3"><img src="cer/Picsart_24-09-06_10-31-22-987.jpg" alt="جرافيك 3"></a>
+    </div>
+    <div class="category-title"> </div>
+    <div class="gallery-grid">
+      <a href="#img4"><img src="cer/Picsart_25-01-20_13-52-45-616.jpg" alt="تصوير 1"></a>
+      <a href="#img5"><img src="cer/Picsart_25-01-20_14-24-16-910.jpg" alt="تصوير 2"></a>
+      <a href="#img6"><img src="cer/Picsart_25-01-20_14-32-03-203.jpg" alt="تصوير 3"></a>
+    </div>
+    <div class="category-title"> </div>
+    <div class="gallery-grid">
+      <a href="#img7"><img src="cer/Picsart_25-01-20_14-36-08-149.jpg" alt="تمثيل 1"></a>
+      <a href="#img8"><img src="cer/Picsart_25-02-22_19-24-50-061.jpg" alt="تمثيل 2"></a>
+      <a href="#img9"><img src="cer/art_24-09-29_20-16-06-977.jpg" alt="تمثيل 3"></a>
+    </div>
+
+    <div class="lightbox" id="img1"><a href="#" class="close">&times;</a><img src="cer/Picsart_25-01-20_13-27-57-733.jpg"></div>
+    <div class="lightbox" id="img2"><a href="#" class="close">&times;</a><img src="cer/Picsart_24-09-01_23-18-20-540.jpg"></div>
+    <div class="lightbox" id="img3"><a href="#" class="close">&times;</a><img src="cer/Picsart_24-09-01_23-18-20-540.jpg"></div>
+    <div class="lightbox" id="img4"><a href="#" class="close">&times;</a><img src="cer/Picsart_25-01-20_13-52-45-616.jpg"></div>
+    <div class="lightbox" id="img5"><a href="#" class="close">&times;</a><img src="cer/Picsart_25-01-20_14-24-16-910.jpg"></div>
+    <div class="lightbox" id="img6"><a href="#" class="close">&times;</a><img src="cer/Picsart_25-01-20_14-32-03-203.jpg"></div>
+    <div class="lightbox" id="img7"><a href="#" class="close">&times;</a><img src="cer/Picsart_25-01-20_14-36-08-149.jpg"></div>
+    <div class="lightbox" id="img8"><a href="#" class="close">&times;</a><img src="cer/Picsart_25-02-22_19-24-50-061.jpg"></div>
+    <div class="lightbox" id="img9"><a href="#" class="close">&times;</a><img src="cer/art_24-09-29_20-16-06-977.jpg"></div>
+ 
+   
+</section>
+
+
+    <section id="contact" style="background-color: #0b1a12; padding: 60px 20px; color: white; font-family: 'Cairo', sans-serif;">
+  <h2 style="text-align: center; font-size: 32px; color: #a7f7c2;">اتصل بي</h2>
+  
+  <div style="text-align: center; margin-bottom: 30px;">
+    <a href="https://wa.me/249925833517" target="_blank" style="margin: 0 10px;">
+      <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="واتساب"/>
+    </a>
+    <a href="https://www.facebook.com/share/1HNsQqkBD8/" target="_blank" style="margin: 0 10px;">
+      <img src="https://img.icons8.com/color/48/facebook.png" alt="فيسبوك"/>
+    </a>
+    <a href="https://www.instagram.com/somblfon/profilecard/?igsh=MXRvODdjcjNocXp3NA==" target="_blank" style="margin: 0 10px;">
+      <img src="https://img.icons8.com/color/48/instagram-new.png" alt="انستغرام"/>
+    </a>
+    <a href="https://youtube.com/@sombl249?si=DPJ-yRrt9fFvNgpX" target="_blank" style="margin: 0 10px;">
+      <img src="https://img.icons8.com/color/48/youtube-play.png" alt="يوتيوب"/>
+    </a>
+    <a href="https://www.tiktok.com/@somblstudio?_t=ZM-8vfF6VewnYr&_r=1" target="_blank" style="margin: 0 10px;">
+      <img src="https://img.icons8.com/color/48/tiktok--v1.png" alt="تيك توك"/>
+    </a>
+  </div>
+
+  <form style="max-width: 600px; margin: auto; background-color: #163c2b; padding: 30px; text-align: right; border-radius: 12px;" text-align: center;>
+    <label for="name" style="display: block; margin-bottom: 8px;">الاسم</label>
+    <input type="text" id="name" name="name" placeholder =" اكتب اسمك هنا" required style="width: 100%; padding: 10px; border-radius: 6px; border: none; margin-bottom: 20px;">
+    
+    <label for="email" style="display: block; margin-bottom: 8px;">البريد الإلكتروني</label>
+    <input type="email" id="email" name="email" placeholder =" اكتب ايميلك هنا" required style="width: 100%; padding: 10px; border-radius: 6px; border: none; margin-bottom: 20px;">
+    
+    <label for="message" style="display: block; margin-bottom: 8px;">الرسالة</label>
+    <textarea id="message" name="message" rows="5" placeholder =" اكتب رسالتك هنا" required style="width: 100%; padding: 10px; border-radius: 6px; border: none; margin-bottom: 20px;"></textarea>
+    
+    <button type="submit" style="width: 50%; background-color: #3be28f; color: black; padding: 12px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
+      إرسال
+    </button>
+  </form>
+</section>
+
+<section id="download-cv" style="background-color: #0e1e14; padding: 60px 20px; color: white; text-align: center; font-family: 'Cairo', sans-serif;">
+  <h2 style="font-size: 32px; color: #a7f7c2;">تحميل السيرة الذاتية</h2>
+  <p style="font-size: 18px; margin-bottom: 20px;">اكتشف تجربتي المهنية ومهاراتي من خلال السيرة الذاتية الخاصة بي. يمكنك تحميلها بسهولة بالنقر على الزر أدناه.</p>
+  
+  <a href="https://drive.google.com/uc?export=download&id=1WAyLPRotN3T7EAXS5_8CvDEhi6faHwan" download="Simbel-CV" style="text-decoration: none;">
+    <button style="background-color: #3be28f; color: black; padding: 15px 30px; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; display: inline-flex; align-items: center;">
+      <img src="https://img.icons8.com/color/48/000000/download.png" alt="Download Icon" style="margin-right: 10px;">
+      تحميل السيرة الذاتية
+    </button>
+  </a>
+</section>
+
+<!-- قسم عدد الزوار -->
+<section id="visitors" style="text-align: center; padding: 2rem; background-color: #1a1a1a; color: #0f0;">
+  <h2>عدد الزوار</h2>
+  <div id="visitorCount" style="font-size: 2rem;">0</div>
+</section>
+
+<script>
+  // نحصل على العنصر الذي سنعرض فيه العدد
+  const countEl = document.getElementById("visitorCount");
+
+  // نحاول نجيب القيمة من localStorage أو نبدأ من صفر
+  let count = localStorage.getItem("visitorCount") || 0;
+
+  // نزيد العدد بواحد
+  count++;
+
+  // نخزنه مرة ثانية في localStorage
+  localStorage.setItem("visitorCount", count);
+
+  // نعرض العدد على الصفحة
+  countEl.textContent = count;
+</script>
+
+
+<footer style="background-color: #0b1a12; color: #a7f7c2; padding: 40px 20px; text-align: center; font-family: 'Cairo', sans-serif;">
+  <h3 style="font-size: 24px; margin-bottom: 15px;">
+  <p style="font-size: 16px; margin-bottom: 10px;">© جميع الحقوق محفوظة - 2025</p>
+  <p style="font-size: 14px;">صمم وطوّر بواسطة المعز | Sombl Studio</p>
+</footer>
+<script>
+  
+
+
+
+
+    function toggleMenu() {
+      document.getElementById('navMenu').classList.toggle('active');
+    }
+
+    function toggleAccordion(element) {
+    const content = element.nextElementSibling;
+    const allContents = document.querySelectorAll('.accordion-content');
+    allContents.forEach(el => {
+      if (el !== content) el.style.display = 'none';
+    });
+    content.style.display = content.style.display === "block" ? "none" : "block";
+  }  
+  </script>
+
+</body>
+</html>
